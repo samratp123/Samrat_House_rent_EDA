@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+
 st.header("The Data is here!!!")
 df=pd.read_csv("C:\\Users\\samra\\OneDrive\\Desktop\\DATASETS\\House_Rent_Dataset.csv")
 st.write(df)
